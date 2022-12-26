@@ -19,7 +19,7 @@ public class FileUpload {
         driver.get("http://the-internet.herokuapp.com/upload");
 
         WebElement fileUpload = driver.findElement(By.id("file-upload"));
-        fileUpload.sendKeys("/Users/nikita/Documents/HomeWork_Project/HeroKuApp_2/Advertising.doc");
+        fileUpload.sendKeys(System.getProperty("user.dir") + "/Advertising.doc");
         WebElement uploadButton = driver.findElement(By.cssSelector("#file-submit"));
         uploadButton.click();
 

@@ -40,11 +40,14 @@ public class FileDownload {
 
         Thread.sleep(10000);
 
-        String filePath = "/Users/nikita/Documents/HomeWork_Project/HeroKuApp_2/Screenshot (1).png";
+        String filePath = System.getProperty("user.dir") + "/sample-zip-file.zip";
         File file = new File(filePath);
 
         if (isFileExist(file)) {
             Assert.assertTrue(isFileExist(file));
         }
+
+        driver.quit();
+
     }
 }

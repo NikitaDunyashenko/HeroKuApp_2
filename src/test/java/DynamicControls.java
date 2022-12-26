@@ -31,21 +31,14 @@ public class DynamicControls {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         WebElement inputText = driver.findElement(By.cssSelector("[type=text]"));
-        try {
-            inputText.sendKeys("Teach Me Skills");
-        } catch (ElementNotInteractableException e){
-            System.out.println("Element is not enabled");
-        }
-
-        Assert.assertEquals(inputText.getText(), "");
+        Assert.assertEquals(inputText.isEnabled(), false);
 
         WebElement enableButton = driver.findElement(By.xpath("//button[text()='Enable']"));
         enableButton.click();
-        WebDriverWait wait1 = new WebDriverWait(driver, 15);
-        wait1.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("[id=message]"))));
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("[id=message]"))));
 
+        Assert.assertEquals(inputText.isEnabled(), true);
         inputText.sendKeys("Teach Me Skills");
-        Assert.assertEquals(inputText.getAttribute("type"), "text");
 
         driver.quit();
 
