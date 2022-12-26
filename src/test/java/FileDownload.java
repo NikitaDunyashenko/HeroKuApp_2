@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class FileDownload {
 
     public boolean isFileExist(File file) {
-        return file.exists() && file.isDirectory();
+        return file.exists();
     }
 
     @Test
@@ -40,12 +40,10 @@ public class FileDownload {
 
         Thread.sleep(10000);
 
-        String filePath = System.getProperty("user.dir") + "/sample-zip-file.zip";
+        String filePath = System.getProperty("user.dir") + "/SEO Raning Factor.txt";
         File file = new File(filePath);
 
-        if (isFileExist(file)) {
-            Assert.assertTrue(isFileExist(file));
-        }
+        Assert.assertTrue(isFileExist(file));
 
         driver.quit();
 
