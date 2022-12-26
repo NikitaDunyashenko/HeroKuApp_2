@@ -1,0 +1,49 @@
+1. URL Structure (Proper Catgorized) https://outdoorfishing/Category/bestfishingrods.com
+2.Use keyword in title.
+3.Focus Keyword in 1st paragram 
+4.H2 heading (Main keyword with different variation)
+5.Content body with different variation can be used.
+6.Buying guide must use in keyword.
+7.Conclusion (keyword use)
+8.Meta Title & Meta Description -- main keyword must be used.
+9.Interlinking  -- One page must be link with other page.
+In interlinking anchor text must be the main kewyword or text of 2nd page, it cannot be keyword or text of 1st page.
+10.Spread Internal Links
+11.Outbound links to authority sites
+12.Adding images (High quality, Alt Tags)
+13.Website speed 85+
+14.SSL Enabled
+15.Content Presentation
+16.Easy Content Language
+17.Research your competitor
+18.Freshness of Content based on latest research 
+19.Google Alerts (We can update freshness using google alert)
+20.Infographics (Canva)
+21.Must add value to user life
+22.Sub-headings must be use (Naturally placement in content)
+23.Schema (Structure of your content) 
+Event -->Date -->Duration-->location-->Time 
+We can increase CTR of our website
+24.Snappa used to infograpics
+25 Accordion ( used for FAQ'S)
+
+
+what is structured Data  -- Help google to understand the data
+Json,Microdata -->Json is the best method 
+Structure Data Testing Tool for testing structure Data 
+
+
+
+---------------------------
+How to add schema on website
+Schema & structure Data for WB
+
+XML and Sitemap
+
+allow crowler to get link from 1 page 
+
+
+---------------------------------------------------
+Drop my link to find out link for creating do-follow backlink
+
+It will give you link
